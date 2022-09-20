@@ -1,0 +1,30 @@
+{
+  "name": "OwlCats",
+  "short_name": "OwlCats",
+  "description": "Owlcats",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#0e0e0f",
+  "background_color": "#0e0e0f",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": ".",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "assets/icons/logo-owlcats-pict_72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/logo-owlcats-pict_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/logo-owlcats-pict_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

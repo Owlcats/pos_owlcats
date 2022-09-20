@@ -1,0 +1,97 @@
+.sidebar li .submenu{ 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  padding-left: 1rem; 
+  padding-right: 1rem;
+}
+div.dataTables_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+div .dataTables_wrapper .dataTables_length .form-select-sm {
+    width: 60px;
+}
+.title-company-setting{
+	margin-bottom: 0px;
+}
+
+/*tab styling*/
+.main_title {
+  position: relative;
+  margin-bottom: 40px !important;
+  text-transform: uppercase;
+}
+
+.main_title:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #00BFFF;
+  bottom: -8px;
+  left: calc(50% - 60px);
+}
+.main_title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #00BFFF;
+  bottom: -9px;
+  left: calc(50% - 20px);
+}
+
+.main_title_left:before,
+.main_title_left:after {
+  left: 0px;
+}
+
+/*common styling end*/
+.member_card_style {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+  margin: 20px 0;
+}
+
+.member_card_style:hover {
+  transform: translateY(-10px);
+}
+
+/*custom tab style 2*/
+.custom_tab_owlcats.nav-tabs {
+  border-bottom: 2px solid #00BFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.custom_tab_owlcats.nav-tabs .nav-link {
+  margin-bottom: -2px;
+  padding: 10px 25px;
+  border-width: 2px;
+}
+
+.custom_tab_owlcats .nav-item.show .nav-link,
+.custom_tab_owlcats .nav-link.active {
+  color: #495057;
+  background-color: #f8f9fa;
+  border-width: 2px;
+  border-color: #00BFFF #00BFFF #f8f9fa;
+}
+
+.custom_tab_owlcats .nav-link:focus,
+.custom_tab_owlcats .nav-link:hover {
+  border-width: 2px;
+  border-color: #00BFFF #00BFFF #f8f9fa;
+}
+
+#add_list_data_banner{
+  width: 100%;
+}
